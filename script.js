@@ -30,26 +30,39 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
+      "Forever",
       "Before You",
       "Tell Me That You❤️Me",
       "OAH",
       "Dù Cho Mai Về Sau",
-      "A Man Without Love"
+      "A Man Without Love",
+      "17",
+      "All I Want"
+     
     ],
     trackNames = [
+      "Lewis Capaldi",
       "Benson",
       "James Smith",
       "Alexander Rybak",
       "Bùi Trường Linh",
-      "Engelbert Humperdinck"
+      "Engelbert Humperdinck",
+      "Pink Sweat",
+      "Olivia Rodrigo"
+      
     ],
-    albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
+    albumArtworks = ["_1", "_2", "_3", "_4", "_5","_6","_7","_8"],   //nhớ thêm id
     trackUrl = [
+      // phần này không nên copy path, đổi đường dẫn blob -> raw/main
+      "https://github.com/vudomc1012/list-music/raw/main/%20Lewis%20Capaldi%20%20Forever.mp3",
       "https://github.com/vudomc1012/list-music/raw/main/Benson%20Boone%20%20Before%20You.mp3",
       "https://github.com/vudomc1012/list-music/raw/main/James%20Smith%20%20Tell%20Me%20That%20You%20Love%20Me.mp3",
       "https://github.com/vudomc1012/list-music/blob/main/Alexander%20Rybak%20%20OAH.mp3",
       "https://github.com/vudomc1012/list-music/raw/main/D%C3%B9%20Cho%20Mai%20V%E1%BB%81%20Sau-buitruonglinh.mp3",
-      "https://github.com/vudomc1012/list-music/raw/main/A%20Man%20Without%20Love%20-%20Engelbert%20Humperdinck.mp3"
+      "https://github.com/vudomc1012/list-music/raw/main/A%20Man%20Without%20Love%20-%20Engelbert%20Humperdinck.mp3",
+      "https://github.com/vudomc1012/list-music/raw/main/Pink%20Sweat%20%2017%20.mp3",
+      "https://github.com/vudomc1012/list-music/raw/main/Olivia%20Rodrigo%20%20All%20I%20Want%20.mp3"
+      
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
