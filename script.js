@@ -48,7 +48,7 @@ $(function () {
       "Bùi Trường Linh",
       "Engelbert Humperdinck",
       "Pink Sweat",
-      "Olivia Rodrigo"
+      "Là iu em :>"
       
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5","_6","_7","_8"],   //nhớ thêm id
